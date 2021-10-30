@@ -1,0 +1,5 @@
+MDT de 100 m de resolución de la Comunitat Valenciana
+
+Modelo digital del terreno en formato ráster de 100 m de píxel generado a partir de vuelo LiDAR de 2009 de 0,5 puntos por metro cuadrado.
+
+https://icv.gva.es/auto/aplicaciones/icv_geocat/#/search?uuid=spaicvMDT100mCV_DATO&lang=spa

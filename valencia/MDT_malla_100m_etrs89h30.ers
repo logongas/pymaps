@@ -1,0 +1,49 @@
+DatasetHeader Begin
+	Version		= "15.0"
+	Name		= "MDT_malla_100m_etrs89h30.ers"
+	LastUpdated	= Mon Jan 15 08:31:33 GMT 2018
+	DataSetType	= ERStorage
+	DataType	= Raster
+	ByteOrder	= LSBFirst
+	CoordinateSpace Begin
+		Datum		= "ETRS89"
+		Projection	= "NUTM30"
+		CoordinateType	= EN
+		Units		= "meters"
+		Rotation	= 0:0:0.0
+	CoordinateSpace End
+	RasterInfo Begin
+		CellType	= IEEE4ByteReal
+		NullCellValue	= -9999
+		CellInfo Begin
+			Xdimension	= 100
+			Ydimension	= 100
+		CellInfo End
+		NrOfLines	= 3603
+		NrOfCellsPerLine	= 2292
+		RegistrationCoord Begin
+			Eastings	= 602597.5
+			Northings	= 4534877.5
+		RegistrationCoord End
+		NrOfBands	= 1
+		BandId Begin
+			Value		= "Pseudo Layer"
+		BandId End
+		RegionInfo Begin
+			Type		= Polygon
+			RegionName	= "All"
+			SourceDataset	= "MDT_malla_100m_etrs89h30"
+			RGBcolour Begin
+				Red			= 65535
+				Green		= 65535
+				Blue		= 65535
+			RGBcolour End
+			SubRegion	= {
+				0	0
+				0	3603
+				2292	3603
+				2292	0
+			}
+		RegionInfo End
+	RasterInfo End
+DatasetHeader End
